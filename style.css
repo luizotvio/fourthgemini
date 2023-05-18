@@ -1,22 +1,8 @@
-body {
-    background-color: black;
-}
-
-
-img {
-    border-radius: 50px;
-    padding: 9px 9px 9px 9px;
-    width: 100px;
-}
-
-#menu {
-    border: solid;
-    background-color: rgba(68, 67, 67, 0.623);
-    border-radius: 50px;
-    float: right;
-}
-
-#burguer {
-    float: right;
-    color: azure;
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
 }
