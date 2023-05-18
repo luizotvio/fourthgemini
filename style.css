@@ -16,10 +16,13 @@ body {
 .card {
     background: white;
     border-radius: 20px;
-    box-shadow: 0px 5px 20px #280f8b70;
+    box-shadow: 0px 10px 50px #280f8ba8;
     width: 400px;
 }
 
+.titulo {
+    color: #a54ada;
+}
 .segundoText {
     color: #a7a0ab;
 }
@@ -47,4 +50,5 @@ button.actions {
     background: none;
     border: none;
     color:  #4818a5a3;
+    cursor: pointer;
 }
