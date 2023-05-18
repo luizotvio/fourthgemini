@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Noto+Sans&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -11,10 +17,34 @@
     background: white;
     border-radius: 20px;
     box-shadow: 0px 5px 20px #280f8b70;
+    width: 400px;
+}
+
+.segundoText {
+    color: #a7a0ab;
 }
 
 .mediaCard {
     background: url("https://media.tenor.com/9LSyPZomAVgAAAAC/fourth-gemini.gif") center/cover;
-    height: 650px;
+    height: 400px;
     width: 100%;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.finalCard {
+    padding: 20px;
+}
+
+.finalTexto {
+    color: #a7a0ab;
+}
+
+button.actions {
+    background: none;
+    border: none;
+    color:  #4818a5a3;
 }
